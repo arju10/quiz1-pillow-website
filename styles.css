@@ -1,0 +1,91 @@
+body {
+    font-family: roboto, sans-serif;
+    color: #707070;
+  }
+  h1 {
+    font-size: 60px;
+    margin: 20px 0;
+    color: rgb(53, 40, 40);
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 0;
+    margin: auto;
+  }
+  .half-width {
+    flex: 1;
+    max-width: 50%;
+    margin-bottom: 10px;
+  }
+  .service-item {
+    flex: 1;
+    max-width: 25%;
+    margin: 0px 15px;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+  }
+  
+  img{
+    width: 600px;
+    height: 380px;
+    object-fit: cover;
+    }
+
+    .horizontal-design {
+        flex: 1;
+        border-left: 150px solid #c66de6;
+    }
+
+    .shop-button{
+        background-color:#c66de6;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        text-align: center;
+        transition: 0.3s;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        padding: 15px 32px;
+        text-decoration: none;
+        font-family: Arial, sans-serif;
+        line-height: 1;
+        color: white;
+
+}
+
+
+.second-layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.image-section {
+    flex: 1;
+}
+
+.image-section img {
+    max-width: 100%;
+}
+
+.text-section {
+    flex: 1;
+    text-align: start;
+    padding: 0 20px;
+}
+.button2{
+    text-align: center;
+    transition: 0.3s;
+    cursor: pointer;
+    border: 1px solid #c66de6;
+    padding: 15px 32px;
+    color: #c66de6;
+}
+
+
+
+
+
